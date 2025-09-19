@@ -95,9 +95,6 @@ header{
     /* background: #1E283A; */
     /* color: #9f9f9f;  */
     color: #fff;
-    top: 0;
-    display: block;
-    transition: top 0.3s;
     padding: 5px 0 3px;}
 
 .top-info ul{ list-style: none; float: right; padding:0; margin: 0;}
@@ -537,39 +534,6 @@ section.info {
     font-size: 15px;
 }
 
-    /* the end of info section */
-
-.about-us{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    background-color: rgb(245, 245, 245);
-}
-.about1{
-    width: 45%;
-    display:flex;
-    flex-direction: column;
-    text-align: justify;
-    padding: 30px 0 30px 40px;
-}
-.about1 h4{
-    color: var(--primary);
-}
-.about1 h1{
-    color: var(--secondary);
-    padding-bottom: 10px;
-}
-.about1 .about-btn{
-    margin-top: 20px;
-}
-
-.about2{
-    border: 2px solid red;
-    height: 80vh;
-    width: 45%;
-}
 
 
 
@@ -594,7 +558,7 @@ section.info {
 
 
 /* Responsive code */
-@media (max-width: 1020px){
+@media (max-width: 920px){
     #top-bar {
         display: flex;
         justify-content: right;
@@ -779,16 +743,5 @@ section.info {
     
     .info_boxes .box {
         width: 75%;
-    }
-
-    .about-us{
-        flex-direction: column;
-    }
-    .about1 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        padding: 30px 30px 30px 40px;
     }
 }
